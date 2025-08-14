@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import aboutHeroImg from "../../assets/about/hero.jpeg";
+import aboutHeroImg from "../../assets/about/main1.jpg";
 
 const AboutHero = () => {
   return (
@@ -8,7 +8,7 @@ const AboutHero = () => {
       className="relative bg-cover bg-center h-[90vh] flex items-center justify-center"
       style={{ backgroundImage: `url(${aboutHeroImg})` }}
     >
-      <div className="absolute inset-0 bg-black/80"></div>
+      <div className="absolute inset-0 bg-black/70"></div>
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}

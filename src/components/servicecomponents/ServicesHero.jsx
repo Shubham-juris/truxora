@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import heroBg from "../../assets/service/hero.jpeg"; 
+import heroBg from "../../assets/service/main.jpg"; 
 
 const ServicesHero = () => {
   return (
@@ -8,7 +8,7 @@ const ServicesHero = () => {
       className="relative h-[90vh] flex items-center justify-center text-center bg-cover bg-center"
       style={{ backgroundImage: `url(${heroBg})` }}
     >
-      <div className="absolute inset-0 bg-black/60"></div>
+      <div className="absolute inset-0 bg-black/80"></div>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
