@@ -3,7 +3,7 @@ import ServicesHero from '../components/servicecomponents/ServicesHero'
 import OurServicesList from '../components/servicecomponents/services'
 import HowItWorks from '../components/servicecomponents/HowItWorks'
 import IndustriesWeServe from '../components/servicecomponents/IndustriesWeServe'
-import Testimonials from '../components/servicecomponents/Testimonials'
+// import Testimonials from '../components/servicecomponents/Testimonials'
 
 const Services = () => {
   return (
@@ -12,7 +12,7 @@ const Services = () => {
       <OurServicesList/>
       <HowItWorks/>
       <IndustriesWeServe/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
     </>
   )
 }
