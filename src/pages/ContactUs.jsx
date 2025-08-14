@@ -1,24 +1,64 @@
 import React from "react";
 import { motion } from "framer-motion";
-import contactImg from "../assets/home/hero.jpg"
+import contactImg from "../assets/home/hero.jpg";
+import MapPage from "./MapPage";
 
 const ContactUs = () => {
   return (
+    <>
     <section className="py-16 bg-gray-100 px-4">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-        
-        {/* Left Image */}
+
+        {/* Left Image with Full Overlay */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
-          className="flex justify-center"
+          className="relative flex justify-center"
         >
+          {/* Background Image */}
           <img
             src={contactImg}
             alt="Contact Us"
-            className="rounded-lg shadow-lg max-h-[500px] object-cover"
+            className="rounded-lg shadow-lg max-h-[500px] object-cover w-full"
           />
+
+          {/* Full Black Overlay */}
+          <div className="absolute inset-0 bg-black/80 rounded-lg"></div>
+
+          {/* Overlay Text Content */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, duration: 0.6 }}
+            className="absolute inset-0 flex flex-col justify-center items-center text-center text-white p-6"
+          >
+            <h3 className="text-lg font-semibold mb-1">📍 Address</h3>
+            <a
+              href="https://www.google.com/maps?q=418+Broadway+Ste+R,+Albany,+NY+12207"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm mb-4 max-w-[80%] hover:underline"
+            >
+              Truxora inc, 418 Broadway Ste R, Albany, NY 12207
+            </a>
+
+            <h3 className="text-lg font-semibold mb-1">📞 Phone</h3>
+            <a
+              href="tel:+48729556920"
+              className="text-sm mb-4 hover:underline"
+            >
+              +48 729 556 920
+            </a>
+
+            <h3 className="text-lg font-semibold mb-1">✉ Email</h3>
+            <a
+              href="mailto:support@truxora.com"
+              className="text-sm hover:underline"
+            >
+              support@truxora.com
+            </a>
+          </motion.div>
         </motion.div>
 
         {/* Right Form */}
@@ -73,6 +113,8 @@ const ContactUs = () => {
         </motion.div>
       </div>
     </section>
+    <MapPage/>
+    </>
   );
 };
 

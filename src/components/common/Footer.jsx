@@ -35,7 +35,6 @@ const Footer = () => {
             <li><a href="/" className="hover:text-red-500">Home</a></li>
             <li><a href="/about" className="hover:text-red-500">About Us</a></li>
             <li><a href="/services" className="hover:text-red-500">Our Services</a></li>
-            <li><a href="/tracking" className="hover:text-red-500">Track Shipment</a></li>
             <li><a href="/contact" className="hover:text-red-500">Contact</a></li>
           </ul>
         </div>
@@ -45,13 +44,27 @@ const Footer = () => {
           <h3 className="text-white font-semibold mb-4">Contact Us</h3>
           <ul className="space-y-3 text-sm">
             <li className="flex items-center gap-2">
-              <FaPhoneAlt className="text-red-500" /> +1 (403) 555-7890
+              <FaPhoneAlt className="text-red-500" />
+              <a href="tel:+48729556920" className="hover:underline">
+                +48 729 556 920
+              </a>
             </li>
             <li className="flex items-center gap-2">
-              <FaEnvelope className="text-red-500" /> support@truxora.com
+              <FaEnvelope className="text-red-500" />
+              <a href="mailto:support@truxora.com" className="hover:underline">
+                support@truxora.com
+              </a>
             </li>
             <li className="flex items-center gap-2">
-              <FaMapMarkerAlt className="text-red-500" /> 2200 Marine Dr, Calgary, Canada
+              <FaMapMarkerAlt className="text-red-500" />
+              <a
+                href="https://www.google.com/maps?q=418+Broadway+Ste+R,+Albany,+NY+12207"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                Truxora inc 418 Broadway Ste R Albany, NY, 12207
+              </a>
             </li>
           </ul>
         </div>
