@@ -84,8 +84,8 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm">
         <p>© {new Date().getFullYear()} Truxora Shipping & Logistics. All Rights Reserved.</p>
-        <p className="mt-1 text-gray-400">
-          Powered by <span className="text-red-500 font-semibold">Greekology</span>
+        <p className="mt-10 text-2xl text-gray-400">
+          Powered by <span className="text-red-500 font-bold">Greekology</span>
         </p>
       </div>
     </footer>
