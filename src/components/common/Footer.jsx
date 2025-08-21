@@ -1,7 +1,6 @@
 import React from "react";
 import {
   FaPhoneAlt,
-  FaEnvelope,
   FaMapMarkerAlt,
   FaFacebook,
   FaInstagram,
@@ -64,12 +63,7 @@ const Footer = () => {
                 +48 729 556 920
               </a>
             </li>
-            <li className="flex items-center gap-2">
-              <FaEnvelope className="text-red-500" />
-              <a href="mailto:support@truxora.com" className="hover:underline">
-                support@truxora.com
-              </a>
-            </li>
+           
             <li className="flex items-center gap-2">
               <FaMapMarkerAlt className="text-red-500" />
               <a

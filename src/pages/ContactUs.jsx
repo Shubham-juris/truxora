@@ -51,13 +51,7 @@ const ContactUs = () => {
               +48 729 556 920
             </a>
 
-            <h3 className="text-lg font-semibold mb-1">✉ Email</h3>
-            <a
-              href="mailto:support@truxora.com"
-              className="text-sm hover:underline"
-            >
-              support@truxora.com
-            </a>
+          
           </motion.div>
         </motion.div>
 
