@@ -63,7 +63,7 @@ const Footer = () => {
                 +48 729 556 920
               </a>
             </li>
-           
+
             <li className="flex items-center gap-2">
               <FaMapMarkerAlt className="text-red-500" />
               <a
@@ -82,17 +82,22 @@ const Footer = () => {
         <div>
           <h3 className="text-white font-semibold mb-4">Connect With Us</h3>
           <div className="flex gap-4 text-lg">
-            <a href="#" className="hover:text-red-500">
+            <a
+              href="https://facebook.com/profile.php?id=61579235387581"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-red-500 text-blue-600"
+            >
               <FaFacebook />
             </a>
-            <a href="#" className="hover:text-red-500">
+
+            <a
+              href="https://www.instagram.com/truxora3/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-red-500 text-red-600"
+            >
               <FaInstagram />
-            </a>
-            <a href="#" className="hover:text-red-500">
-              <FaTwitter />
-            </a>
-            <a href="#" className="hover:text-red-500">
-              <FaLinkedin />
             </a>
           </div>
         </div>
