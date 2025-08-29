@@ -45,10 +45,10 @@ const ContactUs = () => {
 
             <h3 className="text-lg font-semibold mb-1">📞 Phone</h3>
             <a
-              href="tel:+48729556920"
+              href="tel:+1518 - 596-8890"
               className="text-sm mb-4 hover:underline"
             >
-              +48 729 556 920
+             +1518 - 596-8890
             </a>
 
           
