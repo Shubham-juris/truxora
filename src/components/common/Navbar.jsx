@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
-import logo from "../../assets/navbar/logo.png";
+import logo from "../../assets/navbar/logo1.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
         
         <NavLink to="/" className="flex items-center space-x-2">
-          <img src={logo} alt="Truck Logo" className="h-15 w-15" />
+          <img src={logo} alt="Truck Logo" className="h-15 w-20" />
         </NavLink>
 
         {/* Desktop Menu */}
