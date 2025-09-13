@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import heroBg from "../../assets/service/main.jpg"; 
+import heroBg from "../../assets/service/main2.jpeg"; 
 
 const ServicesHero = () => {
   return (
