@@ -4,7 +4,7 @@ import aboutImg from "../../assets/about/main.jpg";
 
 const About = () => {
   return (
-    <section className="py-16 px-4 md:px-12 bg-black/90 text-white">
+    <section className="py-16 px-4 md:px-12 bg-black/70 text-white">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         
         {/* Left Side - Image */}

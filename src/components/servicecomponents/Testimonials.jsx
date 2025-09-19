@@ -20,7 +20,7 @@ const Testimonials = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-black p-6 rounded-lg border border-gray-700"
+              className="bg-black/70 p-6 rounded-lg border border-gray-700"
             >
               <p className="text-gray-300 italic mb-4">"{t.text}"</p>
               <h4 className="font-semibold text-red-500">{t.name}</h4>

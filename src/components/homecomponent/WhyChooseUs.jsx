@@ -11,7 +11,7 @@ const reasons = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-16 px-4 md:px-12 bg-black text-white">
+    <section className="py-16 px-4 md:px-12 bg-black/70 text-white">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-red-500 mb-8">Why Choose Us</h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">

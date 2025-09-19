@@ -24,7 +24,7 @@ const OurServicesList = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-black border border-gray-700 p-6 rounded-lg shadow hover:shadow-lg transition"
+              className="bg-black/60 border border-gray-700 p-6 rounded-lg shadow hover:shadow-lg transition"
             >
               <div className="text-red-500 text-4xl mb-4 flex justify-center">{service.icon}</div>
               <h4 className="font-semibold text-lg mb-2">{service.title}</h4>

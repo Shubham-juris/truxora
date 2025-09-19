@@ -11,7 +11,7 @@ const points = [
 const WhyChooseUs = () => {
   return (
     <motion.section
-      className="py-16 bg-black px-4"
+      className="py-16 bg-black/50 px-4"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}

@@ -12,7 +12,7 @@ const industries = [
 
 const IndustriesWeServe = () => {
   return (
-    <section className="py-16 px-4 md:px-12 bg-black/80 text-white">
+    <section className="py-16 px-4 md:px-12 bg-black/60 text-white">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -28,7 +28,7 @@ const IndustriesWeServe = () => {
           {industries.map((ind, i) => (
             <span
               key={i}
-              className="bg-black px-4 py-2 rounded border border-gray-700"
+              className="bg-black/70 px-4 py-2 rounded border border-gray-700"
             >
               {ind}
             </span>
