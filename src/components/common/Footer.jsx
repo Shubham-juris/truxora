@@ -60,7 +60,8 @@ const Footer = () => {
             <li className="flex items-center gap-2">
               <FaPhoneAlt className="text-red-500" />
               <a href="tel:+1518 - 596-8890" className="hover:underline">
-                +1518 - 596-8890
+                {/* +1518 - 596-8890 */}
+                +1 403-370-0744
               </a>
             </li>
 
