@@ -8,7 +8,7 @@ import {
   FaLinkedin,
   FaTruck,
 } from "react-icons/fa";
-
+import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className="bg-black text-gray-300 py-10">
@@ -84,7 +84,7 @@ const Footer = () => {
           <h3 className="text-white font-semibold mb-4">Connect With Us</h3>
           <div className="flex gap-4 text-lg">
             <a
-              href="https://facebook.com/profile.php?id=61579235387581"
+              href="https://www.facebook.com/truxora/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-red-500 text-blue-600"
@@ -93,12 +93,20 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://www.instagram.com/truxora3/"
+              href="https://www.instagram.com/truxorainc/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-red-500 text-red-600"
             >
               <FaInstagram />
+            </a>
+            <a
+              href=" https://x.com/truxorainc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-red-500 text-red-600"
+            >
+              <FaXTwitter />
             </a>
           </div>
         </div>
