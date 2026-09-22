@@ -117,7 +117,7 @@
 
 
 
-```jsx
+
 import React from "react";
 import { motion } from "framer-motion";
 import contactImg from "../assets/home/hero.jpg";
@@ -262,4 +262,4 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
-```
+
